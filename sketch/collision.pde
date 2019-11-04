@@ -66,12 +66,14 @@ boolean collisionOccursWhenCreatureIsMoved(int direction) {
           result = true;
         }
       }
+      
       break;
 
     case DOWN:
       if ((creaturesBottomEdge >= LEAFETTES_TOP_EDGE) && (creaturesBottomEdge <= LEAFETTES_BOTTOM_EDGE)) {
         if ((creaturesRightEdge >= LEAFETTES_LEFT_EDGE) && (creaturesRightEdge <= LEAFETTES_RIGHT_EDGE)
             || (creaturesLeftEdge <= LEAFETTES_RIGHT_EDGE) && (creaturesLeftEdge >= LEAFETTES_LEFT_EDGE)) {
+         
           result = true;
         }
       }
@@ -90,13 +92,16 @@ boolean collisionOccursWhenCreatureIsMoved(int direction) {
          if ((creaturesBottomEdge >= MINTS_TOP_EDGE) && (creaturesBottomEdge <= MINTS_BOTTOM_EDGE)) {
         if ((creaturesRightEdge >= MINTS_LEFT_EDGE) && (creaturesRightEdge <= MINTS_RIGHT_EDGE)
             || (creaturesLeftEdge <= MINTS_RIGHT_EDGE) && (creaturesLeftEdge >= MINTS_LEFT_EDGE)) {
+          
           result = true;
         }
       }
          if ((creaturesBottomEdge >= MARYJANES_TOP_EDGE) && (creaturesBottomEdge <= MARYJANES_BOTTOM_EDGE)) {
         if ((creaturesRightEdge >= MARYJANES_LEFT_EDGE) && (creaturesRightEdge <= MARYJANES_RIGHT_EDGE)
             || (creaturesLeftEdge <= MARYJANES_RIGHT_EDGE) && (creaturesLeftEdge >= MARYJANES_LEFT_EDGE)) {
-          result = true;
+          
+              
+         result = true;
         }
       }
       break;

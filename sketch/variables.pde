@@ -5,7 +5,7 @@ final int HEIGHT = 50;
 final int X = 0;
 final int Y = 1;
 
-final int MOVE_FACTOR = 4;
+final int MOVE_FACTOR = 2;
 
 final int UP = 0;
 final int RIGHT = 1;

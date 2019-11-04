@@ -27,7 +27,7 @@ void moveCreature (int direction) {
       creaturesBottomEdge = (creatureTopLeftCorner[Y] + HEIGHT);
 
       if (collisionOccursWhenCreatureIsMoved(RIGHT)) {
-           println("You have collided to the right!");
+        println("You have collided to the right!");
          
       } else {
         creatureTopLeftCorner[X] += MOVE_FACTOR;
