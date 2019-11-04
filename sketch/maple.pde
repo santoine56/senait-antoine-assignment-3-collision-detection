@@ -1,7 +1,5 @@
-PImage Maple;
-
-void drawMaple() {
-  
-  Maple = loadImage("image/maple.jpg");
-  image(Maple, 200, 100);
+void drawMaple () {
+  noStroke();
+  fill(255, 64, 0);
+  rect(mapleTopLeftCorner[X], mapleTopLeftCorner[Y], WIDTH, WIDTH);
 }

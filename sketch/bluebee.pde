@@ -1,7 +1,5 @@
-PImage Bluebee;
-
-void drawBluebee() {
-  
-  Bluebee = loadImage("image/bluebee.jpg");
-  image(Bluebee, 875, 208);
+void drawBluebee () {
+  noStroke();
+  fill(0, 26, 255);
+  rect(bluebeeTopLeftCorner[X], bluebeeTopLeftCorner[Y], WIDTH, WIDTH);
 }

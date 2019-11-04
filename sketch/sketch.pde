@@ -1,12 +1,13 @@
-PImage Weedlings;
-// Starting position of circle
-int x = 100;
-int y = 100;
+void setup () {
+  size(400, 400);
+}
 
-//changes size of the circle
-//final int DIAMETER = 50;
-
-void setup() {
-  size(500, 500);
-  Weedlings = loadImage("image/weedlings.jpg");
+void draw () {
+  background(25);
+  drawLeafette();
+  drawCreature();
+  drawBluebee();
+  drawMaple();
+  drawMint();
+  drawMaryjane();
 }

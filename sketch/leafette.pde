@@ -1,7 +1,5 @@
-PImage Leafette;
-
-void drawLeafette() {
-  
-  Leafette = loadImage("image/leafette.jpg");
-  image(Leafette, 200, 100);
+void drawLeafette () {
+  noStroke();
+  fill(0, 255, 13);
+  rect(leafetteTopLeftCorner[X], leafetteTopLeftCorner[Y], WIDTH, WIDTH);
 }
